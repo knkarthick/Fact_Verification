@@ -10,8 +10,8 @@ Steps to Run:
 6. Run the inference notebook Inference_Pipeline.ipynb with inputs from step 4 & 5
    model1_path = final model I path = './models/evidence_identification_model/model.epoch00-loss1.22'
    model2_path = final model II path = './models/evidence_classification_model/model.epoch02-loss0.93'
-   threshold1 = probability threshold to consider for model I = 0.1
-   threshold2 = probability threshold to consider for model II = 0.282
+   threshold1 = probability threshold to consider for model I = 0.01
+   threshold2 = probability threshold to consider for model II = 0.629
 8. Use the two csv files generated at ./results/ for submission
    Evidence_retrieval_output = Rumor with supporting evidence and probabilities
    Rumor_Verification_output = Rumor with top evidences to either substantiate SUPPORT/ REFUTE/ NOT ENOUGH INFO.
